@@ -5,8 +5,15 @@ public class StudentRequest extends GenericRequest {
 
 	}
 
-	public String getEvaluationsAndTasksStudentLoggedIn(String token) {
+	public String getEvaluationsAndTasksUndergraduateStudentLoggedIn(String token) {
 		url = String.format("/student/undergraduate/full/%s", token);
+		String resultado = super.objectRequest();
+		return resultado;
+	}
+
+
+	public String getEvaluationsAndTasksGraduateStudentLoggedIn(String token) {
+		url = String.format("/student/graduate/full/%s", token);
 		String resultado = super.objectRequest();
 		return resultado;
 	}
