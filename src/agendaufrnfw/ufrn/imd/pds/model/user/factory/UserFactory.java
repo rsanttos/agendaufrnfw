@@ -1,6 +1,6 @@
-package agendaufrnfw.ufrn.imd.pds.model.factory;
+package agendaufrnfw.ufrn.imd.pds.model.user.factory;
 
-import agendaufrnfw.ufrn.imd.pds.model.User;
+import agendaufrnfw.ufrn.imd.pds.model.user.User;
 
 public interface UserFactory {
 

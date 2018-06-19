@@ -1,8 +1,8 @@
-package agendaufrnfw.ufrn.imd.pds.model.factory;
+package agendaufrnfw.ufrn.imd.pds.model.user.factory;
 
 import agendaufrnfw.ufrn.imd.pds.dto.StudentDTO;
-import agendaufrnfw.ufrn.imd.pds.model.Student;
-import agendaufrnfw.ufrn.imd.pds.model.User;
+import agendaufrnfw.ufrn.imd.pds.model.user.Student;
+import agendaufrnfw.ufrn.imd.pds.model.user.User;
 
 public class StudentFactory implements UserFactory {
 

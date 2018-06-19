@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.google.gson.Gson;
 
-import agendaufrnfw.ufrn.imd.pds.model.Professor;
+import agendaufrnfw.ufrn.imd.pds.model.user.Professor;
 
 public class ProfessorDTO extends DTO {
 

@@ -1,4 +1,4 @@
-package agendaufrnfw.ufrn.imd.pds.model;
+package agendaufrnfw.ufrn.imd.pds.model.user;
 
 import java.util.List;
 

@@ -2,7 +2,7 @@ package agendaufrnfw.ufrn.imd.pds.dto;
 
 import com.google.gson.Gson;
 
-import agendaufrnfw.ufrn.imd.pds.model.Student;
+import agendaufrnfw.ufrn.imd.pds.model.user.Student;
 
 public class StudentDTO extends DTO {
 
