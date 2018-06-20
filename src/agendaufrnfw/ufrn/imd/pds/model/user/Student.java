@@ -3,6 +3,7 @@ package agendaufrnfw.ufrn.imd.pds.model.user;
 import java.util.List;
 
 import agendaufrnfw.ufrn.imd.pds.dto.ClassDTO;
+import agendaufrnfw.ufrn.imd.pds.model.calendar.Commitment;
 
 public class Student extends User {
 
@@ -17,6 +18,8 @@ public class Student extends User {
     private String sigla_nivel;
 
     private List<ClassDTO> classes;
+    
+    private List<Commitment> commitments;
 
     public Student() {
         super();
@@ -101,4 +104,14 @@ public class Student extends User {
     public void setClasses(List<ClassDTO> classes) {
         this.classes = classes;
     }
+
+	public List<Commitment> getCommitments() {
+		return commitments;
+	}
+
+	public void setCommitments(List<Commitment> commitments) {
+		this.commitments = commitments;
+	}
+    
+    
 }
