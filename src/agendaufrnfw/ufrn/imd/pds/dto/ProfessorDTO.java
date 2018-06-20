@@ -1,7 +1,5 @@
 package agendaufrnfw.ufrn.imd.pds.dto;
 
-import java.util.List;
-
 import com.google.gson.Gson;
 
 import agendaufrnfw.ufrn.imd.pds.model.user.Professor;

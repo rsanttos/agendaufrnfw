@@ -17,4 +17,10 @@ public class StudentFactory implements UserFactory {
 		return sDto.toObject(json);
 	}
 
+	@Override
+	public void populateUserCommitments() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

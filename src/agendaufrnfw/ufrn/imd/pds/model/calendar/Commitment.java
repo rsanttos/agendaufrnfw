@@ -1,7 +1,7 @@
 package agendaufrnfw.ufrn.imd.pds.model.calendar;
 
 public abstract class Commitment {
-	private long finalDate;
+	protected long finalDate;
 
 	public long getFinalDate() {
 		return finalDate;

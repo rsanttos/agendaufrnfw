@@ -3,6 +3,9 @@ package agendaufrnfw.ufrn.imd.pds.model.user;
 import java.util.List;
 
 import agendaufrnfw.ufrn.imd.pds.dto.ClassDTO;
+import agendaufrnfw.ufrn.imd.pds.model.calendar.Commitment;
+import agendaufrnfw.ufrn.imd.pds.model.calendar.Meeting;
+import agendaufrnfw.ufrn.imd.pds.model.calendar.OrientationMeeting;
 
 public class Professor extends User {
 
@@ -15,6 +18,12 @@ public class Professor extends User {
 	private int id_docente;
 
 	private List<ClassDTO> classes;
+	
+	private List<Commitment> commitments;
+
+	private List<Meeting> meetings;
+	
+	private List<OrientationMeeting> orientationMeetings;
 
 	public Professor() {
 	}
@@ -82,4 +91,30 @@ public class Professor extends User {
 	public void setClasses(List<ClassDTO> classes) {
 		this.classes = classes;
 	}
+
+	public List<Commitment> getCommitments() {
+		return commitments;
+	}
+
+	public void setCommitments(List<Commitment> commitments) {
+		this.commitments = commitments;
+	}
+
+	public List<Meeting> getMeetings() {
+		return meetings;
+	}
+
+	public void setMeetings(List<Meeting> meetings) {
+		this.meetings = meetings;
+	}
+
+	public List<OrientationMeeting> getOrientationMeetings() {
+		return orientationMeetings;
+	}
+
+	public void setOrientationMeetings(List<OrientationMeeting> orientationMeetings) {
+		this.orientationMeetings = orientationMeetings;
+	}
+
+	
 }

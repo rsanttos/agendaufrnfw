@@ -1,10 +1,11 @@
 package agendaufrnfw.ufrn.imd.pds.dto;
 
-import com.google.gson.Gson;
-
 import java.util.List;
 
-import agendaufrnfw.ufrn.imd.pds.dto.DTO;
+import com.google.gson.Gson;
+
+import agendaufrnfw.ufrn.imd.pds.model.calendar.Evaluation;
+import agendaufrnfw.ufrn.imd.pds.model.calendar.Task;
 
 public class ClassDTO extends DTO {
 	private int id_turma;
@@ -14,8 +15,8 @@ public class ClassDTO extends DTO {
 	private String codigo_componente;
 	private int id_situacao_solicitacao;
 
-	private List<TaskDTO> tasks;
-	private List<EvaluationDTO> evaluations;
+	private List<Task> tasks;
+	private List<Evaluation> evaluations;
 
 	public ClassDTO() {
 		super();
@@ -69,19 +70,19 @@ public class ClassDTO extends DTO {
 		this.id_situacao_solicitacao = id_situacao_solicitacao;
 	}
 
-	public List<TaskDTO> getTasks() {
+	public List<Task> getTasks() {
 		return tasks;
 	}
 
-	public void setTasks(List<TaskDTO> tasks) {
+	public void setTasks(List<Task> tasks) {
 		this.tasks = tasks;
 	}
 
-	public List<EvaluationDTO> getEvaluations() {
+	public List<Evaluation> getEvaluations() {
 		return evaluations;
 	}
 
-	public void setEvaluations(List<EvaluationDTO> evaluations) {
+	public void setEvaluations(List<Evaluation> evaluations) {
 		this.evaluations = evaluations;
 	}
 

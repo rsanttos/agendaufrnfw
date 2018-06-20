@@ -7,4 +7,6 @@ public interface UserFactory {
 	public User createUser();
 	
 	public User createUserFromJson(String json);
+	
+	public void populateUserCommitments();
 }
